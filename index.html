@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="card">
+        <div id="top-section">
+            <h2>Join our community</h4>
+                <h4>30-day,hassle-free money back gaurantee</h3>
+                    <p>Gain access to our full library of tutorials along with expert code reviews</p>
+                    <p>perfect for any developers who are serious about honing their skills</p>
+        </div>
+        <div id="bottom-section">
+            <div id="bottom-left">
+                <h2>Monthly Subscription</h4>
+                    <div>
+                        <div id="price">$29</div>
+                        <div id="months">per month</div>
+                    </div>
+                    <p>Full access for less than $1 a day</p>
+                    <button onclick="alertfunction()">sign up</button>
+            </div><div id="bottom-right">
+                <h2>Why Us</h2>
+                <ul>
+                    <li>Tutorials by industry experts</li>
+                    <li>Peer & expert code review</li>
+                    <li>Coding exercises</li>
+                    <li>Access to our Github repos</li>
+                    <li>community forum</li>
+                    <li>Flashcard decks</li>
+                    <li>New vidios every week</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function alertfunction() {
+        alert('hey, you clicked the button !')
+    }
+</script>
+<style>
+    html {
+        box-sizing: border-box;
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+    }
+
+    #card {
+        width: 600px;
+        height: 500px;
+        margin: 50px;
+        border-radius: 5px;
+        box-shadow: 5px 10px 20px 0px rgb(0, 0, 0);
+        overflow: hidden;
+        font-family: 'karla';
+    }
+
+    #top-section {
+        height: 40%;
+        width: 100%;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+
+    #bottom-section {
+        color: white;
+        height: 60%;
+        width: 100%;
+    }
+
+    #bottom-left {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+        vertical-align: top;
+        background-color: #2ab2af;
+        padding: 20px;
+    }
+
+    #bottom-right {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+        vertical-align: top;
+        background-color: #218886;
+        padding: 20px;
+    }
+
+    #top-section h2 {
+        color: #2ab2af;
+    }
+
+    #top-section h4 {
+        color: #c0df34;
+    }
+
+    #top-section p {
+        color: #98a6bd;
+    }
+
+    button {
+        color: grey;
+        background-color: #c0df34;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #price {
+        font-weight: 700;
+        font-size: 2.4rem;
+        display: inline;
+    }
+
+    #months {
+        display: inline;
+        position: relative;
+        top: -10px;
+        opacity: 0.7;
+        margin-left: 5px;
+    }
+
+    ul {
+        padding-left: 5px;
+        list-style: none;
+        opacity: 0.7;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #E2FF61;
+        transform: scale(1.1);
+    }
+</style>
+<script>
+    function alertfunction() {
+        alert('hey, you clicked the button !')
+    }
+</script>
+
+</html>
